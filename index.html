@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="pt-pb">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	 crossorigin="anonymous">
+
+	<title>Projeto Final</title>
+
+  
+</head>
+
+<body>
+
+
+	<div class="container">
+
+    
+		<h1>Acompanhamento Semestral</h1>
+
+<form action="" method="POST" name="dados" onSubmit="return enviardados();">
+
+  
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Profissional</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Observação</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Dados
+					do Profissional</a>
+			</li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+			<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+				<div class="container">
+        
+
+          
+					<div class="row">
+            
+						<div class="col-sm-4">
+						</div>
+						<div class="col-sm-2 text-center">
+							Profissional
+						</div>
+						<div class="col-sm-2 text-center">
+							Gestor
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-4">
+							<label class="col-sm-8 col-form-label">Competência 1</label>
+  </div>
+  <div class="col-sm-2">      
+    <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp1prof1" name="txt_comp1prof1">
+  </div>
+  <div class="col-sm-2">
+    <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp1gest1" name="txt_comp1gest1">
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 2</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp2prof2" name="txt_comp2prof2">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp2gest2" name="txt_comp2gest2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 3</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp3prof3" name="txt_comp3prof3">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp3gest3" name="txt_comp3gest3">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 4</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp4prof4" name="txt_comp4prof4">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp4gest4" name="txt_comp4gest4">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 5</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp5prof5" name="txt_comp5prof5">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp5gest5" name="txt_comp5gest5">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 6</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp6prof6" name="txt_comp6prof6">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp6gest6" name="txt_comp6gest6">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 7</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp7prof7" name="txt_comp7prof7">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp7gest7" name="txt_comp7gest7">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 8</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp8prof8" name="txt_comp8prof8">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp8gest8" name="txt_comp8gest8">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 9</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp9prof9" name="txt_comp9prof9">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp9gest9" name="txt_comp9gest9">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 10</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp10prof10" name="txt_comp10prof10">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp10gest10" name="txt_comp10gest10">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 11</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp11prof11" name="txt_comp11prof11">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp11gest11" name="txt_comp11gest11">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Competência 12</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="txt_comp12prof12" name="txt_comp12prof12">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" iid="txt_comp12gest12" name="txt_comp12gest12">
+    </div>
+  </div>
+  
+ <hr>
+
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Média</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+  </div>
+
+<hr>
+<div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Evolução do Desempenho</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+    <div class="col-sm-2">
+    
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+  </div>
+<hr>
+<div class="row p-2 mb-2 bg-info text-white rounded"">
+ 
+    <h5>Avaliação da Empresa</h5>
+  
+</div>
+<div class="row">
+    <div class="col-sm-4 bg-light text-dark">
+     <label class="col-sm-8 col-form-label">Avaliação 1</label>
+    </div>
+    <div class="col-sm-2 bg-light text-dark">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+    <div class="col-sm-2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Avaliação 2</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+    <div class="col-sm-2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Avaliação 3</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+    <div class="col-sm-2">
+         
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Avaliação 4</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+    <div class="col-sm-2">
+         
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Avaliação 5</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+    <div class="col-sm-2">
+         
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+     <label class="col-sm-8 col-form-label">Avaliação 6</label>
+    </div>
+    <div class="col-sm-2">
+     
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="">
+    </div>
+    <div class="col-sm-2">
+         
+    </div>
+  </div>
+
+</div>
+</div>
+<!-- TAB Observação-->
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+<div class="container">
+
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-sm-8">
+      <div class="form-group mt-4">
+        <label for="observacaoProfissional">Observações do Profissional</label>
+        <textarea class="form-control" id="observacaoProfissional" rows="3"></textarea>
+      </div>
+        <div class="form-group">
+        <label for="nomeGestor">Gestor</label>
+        <input type="text" class="form-control" id="nomeGestor">
+      </div>
+
+    <div class="form-group mt-4">
+        <label for="observacaoGestor">Observações do Gestor</label>
+        <textarea class="form-control" id="observacaoGestor" rows="3"></textarea>
+    </div>
+
+    <div class="form-group mt-4">
+        <label for="observacaoEmpresa">Observações sobre a empresa</label>
+        <textarea class="form-control" id="observacaoEmpresa" rows="3"></textarea>
+    </div>
+
+    </div>
+     <div class="col">
+    </div>
+  </div>
+</div>
+  </div>
+
+  <!-- TAB Dados-->
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+ 
+
+ <div class="container">
+
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-sm-8">
+      
+      <div class="form-group mt-4">
+        <label for="nomeProfissional">Nome do Profissional</label>
+        <input type="text" class="form-control" id="nomeProfissional">
+      </div>
+
+      <div class="form-group mt-4">
+        <label for="cpf">CPF</label>
+        <!--<input type="text" class="form-control" id="cpf" name="cpf">-->
+      
+
+      <input type="text" class="form-control" name="cpf" onBlur="ValidarCPF(form1.cpf);" 
+        onblur="MascaraCPF(form1.cpf);" maxlength="14">
+      </div> 
+
+
+    <div class="form-group mt-4">
+        <label for="dadosProfissional">Cargo / Função</label>
+         <input type="text" class="form-control" id="nomeProfissional">
+    </div>
+
+    <div class="form-group mt-4">
+        <label for="dadosProfissional">Equipe</label>
+         <input type="text" class="form-control" id="nomeProfissional">
+    </div>
+<div class="row">
+  <div class="col">
+    <div class="form-group">
+      <label for="inputState">Cidade</label>
+      <select id="inputState" class="form-control">
+        <option selected>Selecione...</option>
+        <option>João Pessoa</option>
+        <option>Campina Grande</option>
+        <option>Patos</option>
+        <option>Cajazeira</option>
+        <option>Pombal</option>
+      </select>
+    </div>
+  </div>
+  <div class="col"
+    <div class="form-group mt-0">
+        <label for="data">Data da Avaliação</label>
+         <input type="date" class="form-control" id="data">
+  </div>
+</div>
+
+    <hr>
+    <div class="p-2 mb-2 bg-info text-white rounded">
+    <h5>Setor RH</h5>
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="responsavelRH">Responsável RH</label>
+        <input type="text" class="form-control" id="responsavelRH">
+    </div>
+    <div class="form-group mt-0">
+        <label for="dataFeedback">Data do Feedback</label>
+        <input type="date" class="form-control" id="dataFeedback">
+    </div>
+
+   <div class="form-group mt-4">
+        <label for="observacaoGerais">Observações Gerais</label>
+        <textarea class="form-control" id="observacaoGerais" rows="3"></textarea>
+   </div>
+    <hr>
+
+    <h6>Avaliação do Processo</h6>
+    <div class="row">
+      <div class="col">
+        <div class="p-1 mb-2 bg-info text-white rounded">
+        Avaliação Profissional
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">Ruim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">Normal</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">Boa</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">Muito Boa</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">Excelente</label>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-1 mb-2 bg-info text-white rounded">
+        Avaliação do Gestor
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">Ruim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">Normal</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">Boa</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">Muito Boa</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">Excelente</label>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+     <div class="col">
+    </div>
+
+    
+  </div>
+<div class="container">
+  <div class="row mt-5 text-left">
+      
+    <div
+</div>
+  
+</div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+
+</div> 
+
+
+<input type="submit" class="btn btn-primary" value="Enviar">
+<input name="Reset" type="reset" class="btn btn-primary" value="Redefinir">
+</form>
+
+
+
+    <!-- Optional JavaScript -->
+<script type="text/javascript" src="/script.js"></script>    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
